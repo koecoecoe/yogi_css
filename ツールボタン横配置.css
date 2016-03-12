@@ -1,0 +1,40 @@
+/*
+*ボタン横配置スタイル
+*/
+
+hr + table {
+    width: 1330px;
+}
+
+hr + table + br + input {
+    background-color: #666666;
+    border: none;
+    color: #ffffff;
+    display: block;
+    font-weight: bold;
+    height: 30px;
+    left: 1100px;
+    position: fixed;
+    top: 225px;
+    width: 200px;
+}
+
+hr + table + br + input:hover {
+    background-color: #339CC5;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+hr + table tr td div.pagination {
+    position: fixed;
+}
+
+hr + table tr td div.pagination span:first-child {
+    width: 32px;
+}
+
+hr + table tr td:last-child {
+    position: relative;
+    width: 22%;
+}

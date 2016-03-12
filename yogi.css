@@ -1,0 +1,63 @@
+html {
+    font-family: "メイリオ",sans-serif;
+}
+
+/*画像*/
+
+div.imgbox {
+    margin-bottom: 6px;
+}
+
+/*サイズ・日付テキスト*/
+
+div.detail {
+    font-size: 10px;
+    line-height: 1.0em;
+    margin-bottom: 5px;
+}
+
+div.detail:first-line {
+    color: #339CC5;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.0em;
+}
+
+/*ボタン*/
+
+div.radio {
+    padding: 0;
+}
+
+div.radio label {
+    background: #F7F7F7;
+    border: 1px solid #ddd;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: -1px;
+    padding: 4px 10px;
+    width: 145px;
+}
+
+div.radio label:hover {
+    background: #C0E7F1;
+    border: 1px solid #7BD1E4;
+}
+
+div.radio input[type="radio"]:checked + label {
+    background: #C0E7F1;
+    border: 1px solid #7BD1E4;
+}
+
+/*詳細ボタン*/
+
+.result a {
+    font-size: 12px;
+}
+
+/*クリア*/
+
+.result div input[type="button"] {
+    font-size: 10px;
+    margin-right: 13px;
+}

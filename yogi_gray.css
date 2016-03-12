@@ -1,0 +1,63 @@
+/*
+*グレースケール
+*/
+
+/*リンク*/
+
+a {
+    color: #288CFA;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #CC0066;
+}
+
+a:hover {
+    color: #eeeeee;
+}
+
+a:active {
+    color: #288CFA;
+}
+
+/*全体の背景色*/
+
+body,th,td {
+    background-color: #151C26;
+    color: #999999;
+}
+
+div#menu ul {
+    background-color: #151C26;
+    color: #999999;
+    height: 100%;
+}
+
+/*テーブルセル内のtooltip*/
+
+body a span {
+    font-weight: normal;
+}
+
+/*ラジオボタンのスタイル*/
+
+body div.radio label {
+    background-color: transparent;
+    padding: 2px 5px;
+    margin-bottom: 0;
+    border: none;
+    border-bottom: solid 1px #ffffff;
+}
+
+body div.radio label:hover {
+    background: #C0E7F1;
+    border: none;
+    border-bottom: 1px solid #7BD1E4;
+}
+
+body div.radio input[type="radio"]:checked + label {
+    background: #C0E7F1;
+    border: none;
+    border-bottom: 1px solid #7BD1E4;
+}

@@ -1,0 +1,17 @@
+/*TNG操作後*/
+.tuning {
+    background: #F9EC95;
+    border: 1px solid #C8B120;
+}
+
+/*削除*/
+.delete {
+    background: #333;
+    border: 1px solid #000;
+}
+
+/*アダルトピンクバック*/
+.adult {
+    background: #FF77A5;
+    border: 1px solid #E52662;
+}
